@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 imap_host = os.getenv('EMAIL_HOST')
-username = "chisa.sichali@dotcomzambia.com"
+username = os.getenv('EMAIL_USER')
 password = os.getenv('EMAIL_PASSWORD')
 next_api = os.getenv('NEXT_API_ROUTE')
 
@@ -73,7 +73,7 @@ def fetch_and_forward_emails():
 
             # Send to Next.js API
             try:
-                response = requests.post("http://localhost:3000/api/email-webhook", json=payload)
+                response = requests.post(next_api, json=payload)
                 print("Forwarded to Next.js API:", next_api)
                 print("Response:", response.status_code, response.text)
             except Exception as e:
