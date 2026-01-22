@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from worker import fetch_and_forward_emails
+from src.worker import fetch_and_forward_emails
 
 app = FastAPI()
 

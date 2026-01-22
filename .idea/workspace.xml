@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d95e1a6b-a02e-41a4-a8f2-12413f957aac" name="Changes" comment="Update: removed email credentials from code">
-      <change afterPath="$PROJECT_DIR$/src/helpers/remove_digital_signatures.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/email_forwarder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/email_forwarder.iml" afterDir="false" />
+    <list default="true" id="d95e1a6b-a02e-41a4-a8f2-12413f957aac" name="Changes" comment="Update:&#10;- restructured the project setup&#10;- created a function to remove digital signatures from the email body in src/helpers/remove_digital_signatures">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1769033198174</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update:&#10;- restructured the project setup&#10;- created a function to remove digital signatures from the email body in src/helpers/remove_digital_signatures">
+      <option name="closed" value="true" />
+      <created>1769077329963</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769077329963</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Update: removed email credentials from code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: removed email credentials from code" />
+    <MESSAGE value="Update:&#10;- restructured the project setup&#10;- created a function to remove digital signatures from the email body in src/helpers/remove_digital_signatures" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update:&#10;- restructured the project setup&#10;- created a function to remove digital signatures from the email body in src/helpers/remove_digital_signatures" />
   </component>
 </project>
