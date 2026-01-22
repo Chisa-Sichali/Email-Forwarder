@@ -1,8 +1,10 @@
-import imaplib
-import email
+import re
 import os
+import email
+import imaplib
 import requests
 from dotenv import load_dotenv
+from src.helpers.remove_digital_signatures import remove_digital_signatures
 
 load_dotenv()
 
@@ -55,6 +57,8 @@ def fetch_and_forward_emails():
                         break
             else:
                 body = msg.get_payload(decode=True).decode()
+
+            body = remove_digital_signatures(body)
 
             print("Body preview:", body[:100])  # first 100 chars
 
