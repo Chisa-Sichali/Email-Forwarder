@@ -19,7 +19,7 @@ The Email Forwarder is a Python-based service designed to automate the process o
 
 ### 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/your-username/email-forwarder.git
+git clone https://github.com/Chisa-Sichali/Email-Forwarder.git
 cd email-forwarder
 \`\`\`
 
